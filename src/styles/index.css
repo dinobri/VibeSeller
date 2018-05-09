@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+body {
+    background-color: #f1f1f1;
+    font-family: 'Lato', sans-serif;
+}
+
+#app.menu-ativo > nav {
+    left: 0px;
+    z-index: 5;
+}
+#app.menu-ativo > main {
+    margin-left: 160px;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px;
+    background-color: #50E3C2;
+    color: #FFF;
+
+    z-index: 10;
+}
+
+#cabecalho h1 {
+    display: inline;
+    margin: 0px;
+}
+
+#cabecalho #botao-menu {
+    margin-right: 20px;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+
+.sombreado {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+main{
+    padding-top: 60px;
+    margin-left: 0px;
+
+    transition: all .2s ease-out;
+}
+
+.ui.primary.button, .ui.primary.buttons .button{
+    background-color: #50E3C2
+}
+.ui.primary.button:hover, .ui.primary.buttons .button:hover,
+.ui.primary.button:focus, .ui.primary.buttons .button:focus,
+.ui.primary.button:active, .ui.primary.buttons .button:active{
+    background-color: #35947f;
+}
+
+.ui.secondary.button, .ui.secondary.buttons .button{
+    background-color: #e83d6a
+}
+.ui.secondary.button:hover, .ui.secondary.buttons .button:hover,
+.ui.secondary.button:focus, .ui.secondary.buttons .button:focus,
+.ui.secondary.button:active, .ui.secondary.buttons .button:active{
+    background-color: #c1355a;
+}

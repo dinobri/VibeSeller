@@ -1,0 +1,73 @@
+.principal{
+    position: relative;
+    padding-bottom: 80px;
+}
+.campos{
+    padding: 20px 15px;
+}
+
+.card {
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #717171;
+}
+
+.card header {
+    margin-bottom: 10px;
+    padding-top: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card header .index {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    font-size: 36px;
+    margin-right: 20px;
+}
+
+.card header .titulo,
+.card > .conteudo {
+    margin-left: 35px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* Card 2 - Fotos */
+.adicionar-foto{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+/* Card 3 - Medidas */
+#tabela-medidas td input{
+    border: 0px;
+    background-color: transparent;
+}
+
+/* Card 4 - Acessos */
+.tabela-pagamentos td{
+    padding: 0px;
+    padding-right: 15px;
+}
+.tabela-pagamentos td:first-child{
+    text-align: center;
+}
+.tabela-pagamentos .field{
+    margin: 0px !important;
+}
