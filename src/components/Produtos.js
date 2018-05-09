@@ -107,13 +107,11 @@ export default class Produtos extends Component {
             tamanhoGG: 0
         });
 
-        console.log(novaListaMedidas);
 
         this.atualizaProdutoCampo('listaMedidas', novaListaMedidas);
     }
 
     handleTabelaMedidas(linha, campo, valor) {
-        console.log(this.state.produto.listaMedidas);
         const novaListaMedidas = this.state.produto.listaMedidas.map((medida, idx) => {
             if(idx == linha){
                 return {...medida, [campo]: valor}
@@ -121,7 +119,6 @@ export default class Produtos extends Component {
             return medida;
         });
 
-        console.log(novaListaMedidas);
         
         this.atualizaProdutoCampo('listaMedidas', novaListaMedidas);
     }
